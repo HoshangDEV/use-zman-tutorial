@@ -45,7 +45,7 @@ code span {
 .social-icons-container {
   margin-top: 35px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 10px;
 }
 .social-container {
@@ -61,4 +61,10 @@ code span {
   padding: 0 20px;
   margin: 0 10px;
   box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .social-icons-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

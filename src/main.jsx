@@ -8,10 +8,12 @@ const translations = {
   en: {
     hello: "Hello World",
     content: "This is english content",
+    selectedZman: "Selected Language: ",
   },
   ku: {
     hello: "سڵاو جیهان",
     content: "ئەمە بابەتی کوردیە",
+    selectedZman: "زمانی دیاریکراو: ",
   },
 };
 
